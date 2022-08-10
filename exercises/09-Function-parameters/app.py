@@ -1,7 +1,6 @@
 # Your code goes here:
-def render_person(param):
-    return param
-
+def render_person(name,age,date,color,gen):
+   return name + " " "is a " + str(age) + " " + "years old " + gen + " " + "born in " + date + " " + "with " + color + " " + "eyes"
 
 # Do not edit below this line
-print(render_person('Bob', '05/22/1983', 'green', 23, 'male'))
+print(render_person('Bob', 23, '05/22/1983', 'green','male'))

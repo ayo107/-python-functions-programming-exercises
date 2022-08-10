@@ -1,2 +1,4 @@
-# your function here
+# your function
 
+is_odd = lambda num: num % 2 != 0
+print(is_odd(24))

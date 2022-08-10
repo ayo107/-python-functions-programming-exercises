@@ -5,6 +5,3 @@ def euro_to_yen(euro_value):
 	return euro_value * 124.15
 
 ####### ↓ YOUR CODE BELOW ↓ #######
-con1 = dollar_to_euro(137)
-con2 = con1 * 124.15
-print(con2)
